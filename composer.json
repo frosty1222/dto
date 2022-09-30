@@ -1,0 +1,23 @@
+{
+    "name": "oop_in_php/dto",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "d",
+    "authors": [
+      {
+        "name": "dong",
+        "email": "lovandong342@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "src\\": "src/"
+      }
+    },
+    "require": {
+        "nesbot/carbon": "^2.62"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
