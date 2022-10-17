@@ -37,8 +37,8 @@ use src\User;
                 ['name'=>'Book B','author'=>'Nguyen van B']
         ];
         $array=[
-            ['name' => 'Nguyễn Gia Hào', 'email' => 'giahao9899@gmail.com'],
-            ['name' => 'VNP Group', 'email' => 'vnp@gmail.com'],
+            ['name' => 'Nguyễn văn A', 'email' => 'A9@gmail.com'],
+            ['name' => 'Wuan', 'email' => 'wuan@gmail.com'],
         ];
         echo "<h1 class='text-center'>test user</h1>";
        $user = new User();
