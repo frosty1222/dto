@@ -59,8 +59,8 @@ $bookArr =[
 ['name'=>'Book B','author'=>'Nguyen van B']
 ];
 $array=[
-['name' => 'Nguyễn Gia Hào', 'email' => 'giahao9899@gmail.com'],
-['name' => 'VNP Group', 'email' => 'vnp@gmail.com'],
+['name' => 'Nguyễn văn A', 'email' => 'A9@gmail.com'],
+['name' => 'Wuan', 'email' => 'wuan@gmail.com'],
 ];
 
 1.test User Class 
@@ -96,16 +96,16 @@ dump($testb->count($bookArr));
 #original: []
 #casts: []
 -attributes: array:2 [▼
-"name" => "Nguyễn Gia Hào"
-"email" => "giahao9899@gmail.com"
+"name" => "Nguyễn văn A"
+"email" => "A9@gmail.com"
 ]
 }
 1 => src\User {#6 ▼
 #original: []
 #casts: []
 -attributes: array:2 [▼
-"name" => "VNP Group"
-"email" => "vnp@gmail.com"
+"name" => "Wuan"
+"email" => "wuan@gmail.com"
 ]
 }
 ]
